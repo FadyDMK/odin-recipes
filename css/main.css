@@ -1,0 +1,26 @@
+html{
+    border-style: outset;
+}
+#container{
+    text-align: center;
+}
+
+#mario:hover{
+    animation: rotate 0.3s linear;
+}
+@keyframes rotate{
+    from 
+    {
+     transform:rotate(0deg);}
+    to {
+    transform:rotate(360deg);}
+}
+
+div.list{
+    text-align: center;
+}
+ul{
+    list-style-type:square;
+    text-align: left;
+    display: inline-block;
+}
