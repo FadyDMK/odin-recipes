@@ -1,7 +1,7 @@
 html{
     border-style: outset;
 }
-#container{
+.container{
     text-align: center;
 }
 
@@ -23,4 +23,18 @@ ul{
     list-style-type:square;
     text-align: left;
     display: inline-block;
+}
+
+
+
+/*Meatballs page*/
+#pewds{
+    display: block;
+    position: absolute;
+    top:0;
+    right:0
+}
+
+#whata{
+    width:5em;
 }
