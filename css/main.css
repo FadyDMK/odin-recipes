@@ -1,8 +1,32 @@
-html{
-    border-style: outset;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 .container{
-    text-align: center;
+    border-style: outset;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 12px;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header{
+    margin: 0;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 16px;
+    justify-content: center;
 }
 
 #mario:hover{
@@ -17,12 +41,15 @@ html{
 }
 
 div.list{
-    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    
 }
 ul{
-    list-style-type:square;
-    text-align: left;
-    display: inline-block;
+    list-style: none;
 }
 
 
