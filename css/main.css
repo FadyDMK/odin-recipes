@@ -1,20 +1,26 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+.container {
     min-height: 100vh;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
-    
+
 }
 
-.header{
+
+#title {
+    font-size: 30px;
+    color: #dfe0df;
+}
+
+.header {
     margin: 0;
     display: flex;
     background-color: #c1b3a0;
@@ -22,8 +28,8 @@
     justify-content: center;
 }
 
-.center{
-    flex:1;
+.center {
+    flex: 1;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -31,17 +37,17 @@
     background-color: #faebd7;
 }
 
-.footer{
+.footer {
     padding: 15px;
     margin: 0;
     align-items: end;
-    border-top-style:solid;
-    background-color:#9dbcb1;
+    border-top-style: solid;
+    background-color: #9dbcb1;
 }
 
 
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,22 +56,25 @@
 
 
 
-#mario{
+#mario {
     width: 50vh;
 }
 
-#mario:hover{
+#mario:hover {
     animation: rotate 0.3s linear;
 }
-@keyframes rotate{
-    from 
-    {
-     transform:rotate(0deg);}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
     to {
-    transform:rotate(360deg);}
+        transform: rotate(360deg);
+    }
 }
 
-div.list{
+div.list {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -73,20 +82,31 @@ div.list{
     padding: 10px;
     transform: scale(1.3);
 }
-ul{
+
+ul {
     list-style: none;
 }
 
 
 
 /*Meatballs page*/
-#pewds{
+#pewds {
     display: block;
     position: absolute;
-    top:0;
-    right:0
+    top: 0;
+    right: 0
 }
 
-#whata{
-    width:5em;
+#whata {
+    width: 5em;
+}
+
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vh;
+    justify-content: space-around;
+    margin: auto;
+    gap: 10px;
 }
